@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Input Types Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+    }
+
+    form {
+      background: white;
+      max-width: 500px;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, select, textarea, button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+    }
+
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<form>
+
+  <h2>User Registration</h2>
+
+  <!-- TEXT -->
+  <label>Full Name</label>
+  <input type="text" placeholder="John Doe" required>
+
+  <!-- EMAIL -->
+  <label>Email</label>
+  <input type="email" placeholder="example@email.com" required>
+
+  <!-- PASSWORD -->
+  <label>Password</label>
+  <input type="password" minlength="6" required>
+
+  <!-- NUMBER -->
+  <label>Age</label>
+  <input type="number" min="13" max="100">
+
+  <!-- PHONE -->
+  <label>Phone Number</label>
+  <input type="tel" placeholder="+91 9876543210">
+
+  <!-- DATE -->
+  <label>Date of Birth</label>
+  <input type="date">
+
+  <!-- TIME -->
+  <label>Preferred Time</label>
+  <input type="time">
+
+  <!-- DATETIME -->
+  <label>Meeting Date & Time</label>
+  <input type="datetime-local">
+
+  <!-- RANGE -->
+  <label>Experience Level</label>
+  <input type="range" min="0" max="10">
+
+  <!-- COLOR -->
+  <label>Favorite Color</label>
+  <input type="color">
+
+  <!-- FILE -->
+  <label>Upload Resume</label>
+  <input type="file">
+
+  <!-- RADIO -->
+  <label>Gender</label>
+  <input type="radio" name="gender"> Male
+  <input type="radio" name="gender"> Female
+
+  <!-- CHECKBOX -->
+  <label>
+    <input type="checkbox"> I agree to terms
+  </label>
+
+  <!-- SELECT -->
+  <label>Country</label>
+  <select>
+    <option>Select</option>
+    <option>India</option>
+    <option>Pakistan</option>
+    <option>USA</option>
+  </select>
+
+  <!-- TEXTAREA -->
+  <label>About You</label>
+  <textarea rows="4"></textarea>
+
+  <!-- HIDDEN -->
+  <input type="hidden" value="user_123">
+
+  <!-- SUBMIT -->
+  <button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>
