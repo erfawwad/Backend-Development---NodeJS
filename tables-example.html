@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Table Learning</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse; /* removes double borders */
+      background-color: #f9f9f9;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    th, td {
+      border: 2px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    td {
+      color: #333;
+    }
+
+    tr:nth-child(even) {
+      background-color: #e6f2ff;
+    }
+
+    tr:hover {
+      background-color: #ffd;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>HTML Table – Complete Learning Example</h1>
+
+  <table>
+    <caption>Student Marks Table</caption>
+
+    <!-- TABLE HEADER -->
+    <thead>
+      <tr>
+        <th rowspan="2">Roll No</th>
+        <th rowspan="2">Name</th>
+        <th colspan="3">Marks</th>
+        <th rowspan="2">Total</th>
+      </tr>
+      <tr>
+        <th>Math</th>
+        <th>Science</th>
+        <th>English</th>
+      </tr>
+    </thead>
+
+    <!-- TABLE BODY -->
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ali</td>
+        <td>85</td>
+        <td>78</td>
+        <td>90</td>
+        <td>253</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Ahmed</td>
+        <td>88</td>
+        <td>82</td>
+        <td>85</td>
+        <td>255</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Fawwad</td>
+        <td colspan="3">Absent</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+
+    <!-- TABLE FOOTER -->
+    <tfoot>
+      <tr>
+        <td colspan="5"><strong>Class Average</strong></td>
+        <td><strong>252</strong></td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+</body>
+</html>
