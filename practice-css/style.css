@@ -1,0 +1,70 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Q1: ID selector */
+#box {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+/* Q2: Class selector */
+.heading {
+  color: red;
+}
+
+/* Q3: External CSS button */
+.external-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-right: 10px;
+}
+
+/* Extra Practice: Box Model */
+.card {
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid black;
+  background-color: #f2f2f2;
+}
+
+/* Extra Practice: Flexbox */
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-item {
+  background-color: lightblue;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+/* Extra Practice: Form */
+.login-form {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form input {
+  padding: 8px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+}

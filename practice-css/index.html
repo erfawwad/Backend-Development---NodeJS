@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Practice Set</title>
+
+  <!-- Internal CSS (for Q3 demo) -->
+  <style>
+    /* Internal style */
+    .internal-btn {
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin-top: 10px;
+    }
+  </style>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>CSS Practice Set</h1>
+
+  <!-- Q1: Div with ID -->
+  <section>
+    <h2>Q1: Div with ID</h2>
+    <div id="box">
+      This is a div with id "box" and blue background
+    </div>
+  </section>
+
+  <!-- Q2: Headings with same class -->
+  <section>
+    <h2>Q2: Headings with same class</h2>
+    <h1 class="heading">Heading H1</h1>
+    <h2 class="heading">Heading H2</h2>
+    <h3 class="heading">Heading H3</h3>
+  </section>
+
+  <!-- Q3: Button with CSS priority -->
+  <section>
+    <h2>Q3: CSS Priority (Cascading)</h2>
+
+    <!-- External CSS -->
+    <button class="external-btn">
+      External CSS Button (Green)
+    </button>
+
+    <!-- Internal CSS -->
+    <button class="internal-btn">
+      Internal CSS Button (Blue)
+    </button>
+
+    <!-- Inline CSS -->
+    <button style="background-color: pink; padding: 10px 20px; border: none;">
+      Inline CSS Button (Pink)
+    </button>
+  </section>
+
+  <!-- EXTRA PRACTICE 1: Box Model -->
+  <section>
+    <h2>Extra Practice: Box Model</h2>
+    <div class="card">
+      This card demonstrates margin, padding, border, and content.
+    </div>
+  </section>
+
+  <!-- EXTRA PRACTICE 2: Flexbox -->
+  <section>
+    <h2>Extra Practice: Flexbox Layout</h2>
+    <div class="flex-container">
+      <div class="flex-item">Item 1</div>
+      <div class="flex-item">Item 2</div>
+      <div class="flex-item">Item 3</div>
+    </div>
+  </section>
+
+  <!-- EXTRA PRACTICE 3: Form Styling -->
+  <section>
+    <h2>Extra Practice: Form Styling</h2>
+    <form class="login-form">
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+</body>
+</html>
