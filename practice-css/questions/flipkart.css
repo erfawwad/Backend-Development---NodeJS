@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #414141;
+    padding: 10px;
+}
+button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 250px;
+}
+
+margin-right: 50px;
+
+input[type="text"], input[type="Search"] {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
