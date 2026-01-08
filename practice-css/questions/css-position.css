@@ -1,0 +1,43 @@
+/* Base styling for readability */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+/* -------------- REQUIRED PART (DEMO) -------------- */
+.nature-box {
+    width: 200px;
+    height: 200px;
+    background-image: url("./images/cat.jpg");
+    background-size: cover;      /* Fills container */
+    background-position: center; /* Centers image */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+    /* IMPORTANT: fixed so it doesn't move on scroll */
+    position: fixed;
+    right: 10px;
+    top: 100px;
+
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+/* -------------- EXTRA PRACTICE PROPERTIES -------------- */
+
+.nature-box:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Styling for paragraphs to see scroll effects */
+p {
+    max-width: 600px;
+    margin-bottom: 60px;
+}
