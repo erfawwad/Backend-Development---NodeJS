@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Position Types Demo</title>
+  <link rel="stylesheet" href="position.css">
+</head>
+<body>
+
+<h2>CSS Position Types Demo</h2>
+
+<section>
+  <h3>1. position: static (default)</h3>
+  <div class="box static-box">Static Box</div>
+  <p>Static elements don't move when using top/left/right/bottom.</p>
+</section>
+
+<section>
+  <h3>2. position: relative</h3>
+  <div class="box relative-box">Relative Box</div>
+  <p>Relative moves based on its original position.</p>
+</section>
+
+<section class="absolute-container">
+  <h3>3. position: absolute</h3>
+  <div class="box absolute-box">Absolute Box</div>
+  <p>This box is positioned inside the pink container using absolute.</p>
+</section>
+
+<section>
+  <h3>4. position: fixed</h3>
+  <p>Scroll the page to see the fixed box stay at bottom-right.</p>
+  <div class="box fixed-box">Fixed Box</div>
+</section>
+
+<section>
+  <h3>5. position: sticky</h3>
+  <div class="sticky-box">Sticky Header</div>
+  <p>Scroll the page — this green box will stick to the top.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+</section>
+
+</body>
+</html>
