@@ -1,0 +1,35 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    border: 2px solid #333;
+    padding: 20px;
+    text-align: center;
+    background-color: #cbcb56;
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: #033057;
+    border: 5px solid #414141;
+    height: 250px;
+    width: 250px;
+    flex: content;
+    background-color: #62a6e3;
+}
+li {
+    list-style: none;
+    margin: 10px;
+    display: inline;
+}
+#id{
+    font-size: 30px;
+    background-color: #f10909;
+    color: white;
+}
